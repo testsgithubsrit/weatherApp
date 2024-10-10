@@ -1,0 +1,215 @@
+.text {
+  margin-top: 100px;
+}
+
+.custom-hover-effect:hover {
+  font-size: 18px;
+
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.nav-item {
+  padding-right: 30px;
+  
+}
+
+
+.navbar-collapse {
+  padding-left: 30px;
+}
+
+.main_header_left {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_header_right {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-indicators button {
+  background-color: black;
+  /* Set the default background color to black */
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  /* Set the active state to black */
+  opacity: 1;
+  /* Ensure the active button doesn't look faded */
+}
+
+.carousel-indicators button:hover {
+  background-color: black;
+  /* On hover, keep the button black */
+}
+
+/*.carousel-control-prev-icon button{
+  color: black; 
+}
+button.carousel-control-next-icon {
+  color: black; 
+}*/
+/* Change the color of the 'previous' arrow icon */
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 16 16"%3E%3Cpath d="M11.354 1.354a.5.5 0 0 0-.708-.708l-6 6a.5.5 0 0 0 0 .708l6 6a.5.5 0 0 0 .708-.708L5.707 8l5.647-5.646z"/%3E%3C/svg%3E');
+}
+
+/* Change the color of the 'next' arrow icon */
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 16 16"%3E%3Cpath d="M4.646 1.354a.5.5 0 0 1 .708-.708l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354z"/%3E%3C/svg%3E');
+}
+
+.main_header_left button {
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px rgba(15, 2, 2, 0.916);
+}
+
+.main_header_left p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.main_header_left h1 {
+  font-size: 3rem;
+  margin: 1rem 0 4rem 0;
+  text-transform: capitalize;
+}
+
+.text-co {
+  color: rgb(75, 75, 229);
+}
+
+.carousel-item {
+  height: 90%;
+  width: 90%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: auto;
+
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  line-height: 5rem;
+  font-size: 1.4rem;
+}
+
+.form-search {
+  margin-top: 20vh;
+  margin-bottom: 70vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.form-control{
+  height:65px;
+  font-size:25px;
+  border-radius: 20px;
+}
+.btn{
+  font-size:25px;
+  border-radius: 20px;
+}
+.box {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  margin-top: 15%;
+  border-radius:20px;
+  
+  box-shadow:  5px 2px 0   rgb(156, 164, 180);
+
+}
+
+.top-layer {
+  /*display: grid;
+  grid-template-columns: 6fr 6fr;*/
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(0, 102, 255);
+  display: flex;
+  justify-content: space-between;
+   padding: 30px;
+  font-size: large;
+
+
+}
+.main-layer{
+  padding-top: 30px;
+  padding-left:40px ;
+  font-size: large;
+  text-transform: capitalize;
+}
+.middel-layer{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  
+}
+/*.data-hide{
+  visibility:hidden ;
+  transition: all 0.3s linear;
+}*/
+.about-header {
+  
+  margin-bottom:auto;
+  
+}
+.pic{
+  height: 400px;
+  width: 400px;
+}
+.about_header_right {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_header_left h3 {
+  font-size: 2rem;
+  margin: 1rem 0 4rem 0;
+  text-transform: capitalize;
+}
+
+
+@media(max-width:768px) {
+  .main_header_left {
+    height: auto;
+    margin: 5rem 0;
+  }
+
+  .main_header_right {
+    height: auto;
+    margin-top: 2rem;
+  }
+  .about{
+    margin-top: 35%;
+    height: 20rem;
+  }
+  
+}
