@@ -3,21 +3,19 @@
     "express": "^4.21.0",
     "hbs": "^4.2.0"
   },
-  "name": "express_project1",
+  "name": "my-package",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
-  
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "author": "neha",
   "license": "ISC",
   "description": "",
-
-  "name": "my-package",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8"
   }
 }
